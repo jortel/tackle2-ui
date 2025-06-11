@@ -93,19 +93,19 @@ export const CACHE = HUB + "/cache/m2";
 export const ANALYSIS_DEPENDENCIES = HUB + "/analyses/report/dependencies";
 export const ANALYSIS_REPORT_RULES = HUB + "/analyses/report/rules";
 export const ANALYSIS_REPORT_ISSUES_APPS =
-  HUB + "/analyses/report/issues/applications";
+  HUB + "/analyses/report/insights/applications";
 export const ANALYSIS_REPORT_APP_ISSUES =
-  HUB + "/analyses/report/applications/:applicationId/issues";
+  HUB + "/analyses/report/applications/:applicationId/insights";
 export const ANALYSIS_REPORT_ISSUE_FILES =
-  HUB + "/analyses/report/issues/:issueId/files";
+  HUB + "/analyses/report/insights/:issueId/files";
 
 export const ANALYSIS_REPORT_APP_DEPENDENCIES =
   HUB + "/analyses/report/dependencies/applications";
 
-export const ANALYSIS_REPORT_FILES = HUB + "/analyses/report/issues/:id/files";
-export const ANALYSIS_ISSUES = HUB + "/analyses/issues";
+export const ANALYSIS_REPORT_FILES = HUB + "/analyses/report/insights/:id/files";
+export const ANALYSIS_ISSUES = HUB + "/analyses/insights";
 export const ANALYSIS_ISSUE_INCIDENTS =
-  HUB + "/analyses/issues/:issueId/incidents";
+  HUB + "/analyses/insights/:issueId/incidents";
 
 export const QUESTIONNAIRES = HUB + "/questionnaires";
 
